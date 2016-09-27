@@ -27,7 +27,8 @@ c = []
 a.each do |x|
 	c.unshift(x)
 end
-pp c
+# pp c
+
 
 
 
