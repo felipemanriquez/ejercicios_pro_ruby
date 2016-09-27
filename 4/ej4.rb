@@ -23,8 +23,15 @@ z = []
 
 #OTRO
 
-z= nombres.map {|a| a.downcase }
-pp z
+# z= nombres.map {|a| a.downcase }
+# pp z
 
 #OTRO
 
+# z = nombres.select {|x| x.chars.first[0] =~ /[P]/ }
+# pp z
+
+#OTRO
+
+z = nombres.map {|a| a.length}
+pp z
