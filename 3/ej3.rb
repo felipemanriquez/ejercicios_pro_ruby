@@ -36,11 +36,4 @@ a = [1,2,3,9,1,4,5,2,3,6,6]
 
 pp a.map{|x| x+=1}
 
-
-
 #OTRO
-
-nombres = ["Violeta", "Andino", "Clemente", "Javiera", "Paula", "Pia",
-"Ray"]
-
-nombres.each
